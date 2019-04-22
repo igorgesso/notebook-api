@@ -1,5 +1,7 @@
 class Contact < ApplicationRecord
+#Associations
 belongs_to :kind, optional: true
+has_many :phones
 
     # def kind_description
     #     self.kind.description
