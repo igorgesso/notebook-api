@@ -1,3 +1,4 @@
 class Phone < ApplicationRecord
-  belongs_to :contact
+  #Asssociations
+  belongs_to :contact, optional: true
 end
